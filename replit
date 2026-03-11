@@ -1,0 +1,12 @@
+run = "npm install && node server.js"
+
+[env]
+AERIES_USER = "harish.gaur@gmail.com"
+AERIES_PASS = "your_password_here"
+
+[nix]
+channel = "stable-22_11"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
